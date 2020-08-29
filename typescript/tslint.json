@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "@openware/coding-standards/tslint"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "config/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  },
+  "rules": {
+    "trailing-comma": false,
+    "no-console": false,
+    "cyclomatic-complexity": [true, 40],
+    "linebreak-style": [true, "CRLF"],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "no-magic-numbers": false,
+    "jsx-no-lambda": false,
+    "no-submodule-imports": false,
+    "jsx-no-multiline-js": false,
+    "no-object-literal-type-assertion": false
+  }
+}

@@ -1,0 +1,10 @@
+window.env = window.env || {};
+export const host = window.env.API_URL || 'http://localhost:9001';
+export const barongUrl = () => window.env.BARONG_URL;
+export const peatioUrl = () => window.env.PEATIO_URL;
+export const fiatlogicUrl = () => window.env.FIATLOGIC_URL;
+export const compoundUrl = () => window.env.COMPOUND_URL;
+export const rangerUrl = () => window.env.RANGER_URL;
+export const gaTrackerKey = () => window.env.gaTrackerKey || '';
+export const gtmKey = () => window.env.gtmKey || '';
+export const tidioID = () => window.env.TIDIO_ID || '';

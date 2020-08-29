@@ -1,0 +1,304 @@
+@font-face {font-family: "Helvetica Neue"; 
+  src: url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot"); 
+  src: url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.svg#Helvetica Neue") format("svg");
+}
+  
+@import url("https://fonts.googleapis.com/css?family=Karla:300,400,700,400italic");
+body {
+  margin: 0;
+  padding: 0;
+  font-family:"Helvetica Neue",Helvetica,  -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F2F2F2 !important;
+}
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+h1, h2, h3, h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.scrollHide::-webkit-scrollbar {
+  display: none;
+}
+
+.contBackground {
+  background-color: '#f1f4f9';
+}
+
+
+.cardView{
+  box-shadow: 0 3px 5px rgba(0,0,0,0.16), 0 3px 5px rgba(0,0,0,0.23);
+}
+code {
+  font-family: 'Karla',source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace !important;
+}
+.App {
+  text-align: center;
+}
+.MuiTypography-subtitle1{
+  font-family: Helvetica Neue !important;
+}
+.MuiTypography-h6{
+  font-family: Helvetica Neue !important;
+}
+.MuiTypography-body1{
+  font-family: Helvetica Neue !important;
+}
+.MuiTypography-body2{
+  font-family: Helvetica Neue !important;
+}
+.MuiTypography-h5{
+  font-family: Helvetica Neue !important;
+}
+.MuiButton-root{
+  font-family: Helvetica Neue !important;
+}
+/* .MuiInputBase-input{
+  color:#000 !important;
+  font-family: Helvetica Neue !important;
+} */
+/* .MuiInputBase-root{
+  color:#fff !important;
+  font-family: Helvetica Neue !important;
+} */
+.WalletLayout-tabDetails-1925{
+  margin-top: 30px !important;
+}
+/* .Mui-focused{
+  color:#fff !important
+} */
+/* .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+border-color: #fff !important;
+} */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #EEEEF6 inset !important;
+    border-radius: 15px;
+}
+.MuiTypography-colorTextSecondary{
+  color:#fff !important;
+  font-weight: bold !important;
+  font-family: Helvetica Neue !important;
+}
+.fab{
+  font-weight: 400;
+  color:#727aec;
+  font-size: 1.125rem;
+  background: #f5f6fe;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MuiList-root div {
+  max-width: 100%
+}
+
+.sk-cube-grid {
+  width: 130px;
+  height: 130px;
+  margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #e82136;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+.image {
+  /* background-image: url("assets//sign-in.png"); */
+  background-color: #291d3f;
+  height: 100vh;
+}
+
+.MuiInputLabel-outlined{
+  z-index: 0 !important;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* width */
+.walletRoot::-webkit-scrollbar {
+  width: 15px;
+  height: 2px;
+}
+
+/* Track */
+.walletRoot::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.walletRoot::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.walletRoot::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
+
+.dzu-previewButton{
+  background-color: white;
+  padding: 12px;
+  border-radius: 50px;
+}
+
+.TVChartContainer {
+  height: calc(73vh - 80px);
+  width: 100%;
+}
+
+.dzu-inputLabel{
+  text-align: center;
+}
+.dzu-previewContainer>span{
+  color:#000 !important
+}
